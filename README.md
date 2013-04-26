@@ -12,11 +12,11 @@ EC2 Requirements
 Setup
 =====
 
-1. cp 52-ec2-volid.rules /etc/udev/rules.d
-2. cp ec2_dev_2_volid.py /sbin
-3. cp ec2blkdev /etc/init.d
-4. chkconfig ec2blkdevid on
-5. service ec2blkdevid start
+1. sudo cp 52-ec2-volid.rules /etc/udev/rules.d
+2. sudo cp ec2_dev_2_volid.py /sbin
+3. sudo cp ec2blkdev /etc/init.d
+4. sudo chkconfig ec2blkdev on
+5. sudo service ec2blkdev start
 
 Mounting volumes
 ================
