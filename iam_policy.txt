@@ -1,0 +1,14 @@
+{
+  "Statement": [
+    {
+      "Sid": "Stmt1367003015579",
+      "Action": [
+        "ec2:DescribeInstances"
+      ],
+      "Effect": "Allow",
+      "Resource": [
+        "*"
+      ]
+    }
+  ]
+}
