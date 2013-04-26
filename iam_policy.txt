@@ -1,9 +1,9 @@
 {
   "Statement": [
     {
-      "Sid": "Stmt1367003015579",
+      "Sid": "Stmt1367003615827",
       "Action": [
-        "ec2:DescribeInstances"
+        "ec2:DescribeInstanceAttribute"
       ],
       "Effect": "Allow",
       "Resource": [
