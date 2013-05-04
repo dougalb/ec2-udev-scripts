@@ -32,4 +32,5 @@ availableDevices = [a for a in blockDevices if a not in paths]
 conn = boto.ec2.connect_to_region(region)
 
 # Attach the volume
-conn.attach_volume(volumeId,instanceId,availableDevices[0])
+dev = availableDevices[0].replace('xvd', 'sd')
+conn.attach_volume(volumeId,instanceId,dev)
