@@ -4,7 +4,7 @@ install:
 	install -m 744 ec2blkdev /etc/init.d
 	install -m 744 attachVolume.py /usr/local/sbin
 	chkconfig ec2blkdev on
-	service chkconfig start
+	service ec2blkdev start
 
 uninstall:
 	chkconfig ec2blkdev --del
